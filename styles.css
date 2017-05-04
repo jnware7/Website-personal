@@ -59,7 +59,7 @@ background-position: 10% 22%;
 	width:100%;
 	color:white;
 	justify-content: center;
-	margin-top: 300px;
+	margin-top: 180px;
 }
 .site-title{
 	color:white;
@@ -67,7 +67,7 @@ background-position: 10% 22%;
 	margin-top: auto;
 	letter-spacing: -2px;
 	font-family: 'Poppins', sans-serif;
-	font-size: 4em;
+	font-size: 5em;
 
 }
 
@@ -253,6 +253,7 @@ width:100%;
 	justify-content: space-between;
 	margin-left:6em;
 	margin-right:6em;
+
 	}
 
 .cell{
@@ -417,15 +418,36 @@ font-family: 'Poppins', sans-serif;
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2) {
 		.cell{
-			 width: 400px;
-			 margin-left: auto;
-	     margin-right: auto;
-			 margin-top: 100px;
-		}
-		.responsive-image{
-		 max-width: 100%;
+		width: calc(100% / 2);
+		padding-left: auto;
+		padding-right: auto;
+		height:600px;
 
-		}
+
+ }
+ .responsive-image{
+	max-width: 100%;
+
+ }
+ .photo-rowgrid{
+	 flex-direction: row;
+	 justify-content:center;
+	 }
+	 .photoscontainer{
+		 display: flex;
+		 flex-wrap: wrap;
+		width:100%;
+		background-color: white;
+		height:auto;
+		z-index: 1;
+		align-items: center;
+		justify-content: center;
+		padding-bottom: 100px;
+
+	 }
+	 .site-title{
+		 font-size:3.9em;
+	 }
 }
 
 
@@ -639,4 +661,14 @@ padding-top: 10px;
 padding-bottom: 150px;
 font-family: 'Poppins', sans-serif;
 	font-size: 1em;
+}
+blockquote{
+	color:white;
+	font-family: 'Poppins', sans-serif;
+	display:flex;
+	justify-content: center;
+font-style: italic;
+font-size:1em;
+
+
 }
