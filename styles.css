@@ -46,6 +46,10 @@ a:visited{
 
 }
 .top-container{
+	display: -webkit-box;      
+	display: -moz-box;         
+	display: -ms-flexbox;      
+	display: -webkit-flex;
 	display:flex;
 	width:100%;
 	height:300px;
@@ -55,6 +59,10 @@ a:visited{
 
 }
 .top-container3{
+	display: -webkit-box;      
+	display: -moz-box;         
+	display: -ms-flexbox;      
+	display: -webkit-flex;
 	display:flex;
 	width:100%;
 	height:200px;
@@ -67,6 +75,10 @@ background-position: 10% 22%;
     height: 700px;
 }
 .top-container2{
+	display: -webkit-box;      
+	display: -moz-box;         
+	display: -ms-flexbox;      
+	display: -webkit-flex;
 	display:flex;
 	width:100%;
 	color:white;
@@ -175,6 +187,10 @@ filter: invert(100%);
 }
 
 .center-menu{
+	display: -webkit-box;      
+	display: -moz-box;         
+	display: -ms-flexbox;      
+	display: -webkit-flex;
 	display:flex;
 	justify-content: center;
 	align-content: center;
@@ -192,6 +208,10 @@ filter: invert(100%);
 
 }
 .bio-p-container{
+	display: -webkit-box;      
+	display: -moz-box;         
+	display: -ms-flexbox;      
+	display: -webkit-flex;
 	display:flex;
 	flex-direction:row;
 	width:600px;
@@ -209,6 +229,10 @@ font-weight: 500;
 text-align: justify;
 }
 .more-arrow{
+	display: -webkit-box;      
+	display: -moz-box;         
+	display: -ms-flexbox;      
+	display: -webkit-flex;
 	display: flex;
 	color:white;
 	font-stretch:semi-expanded;
@@ -263,6 +287,10 @@ width:100%;
 
 }
 .photo-rowgrid{
+	display: -webkit-box;      
+	display: -moz-box;         
+	display: -ms-flexbox;      
+	display: -webkit-flex;
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: row;
@@ -295,6 +323,10 @@ width:100%;
 
 }
 .social_row{
+	display: -webkit-box;      
+	display: -moz-box;         
+	display: -ms-flexbox;      
+	display: -webkit-flex;
     display: flex;
 	width:350px;
 
@@ -328,6 +360,10 @@ width:40px;
 
 }
 .contact_row{
+	display: -webkit-box;      
+	display: -moz-box;         
+	display: -ms-flexbox;      
+	display: -webkit-flex;
  display:flex;
  flex-direction: row;
  justify-content: flex-end;
@@ -379,6 +415,10 @@ width: 300px;
 }
 
 .menu-options {
+	display: -webkit-box;      
+	display: -moz-box;         
+	display: -ms-flexbox;      
+	display: -webkit-flex;
 	display: flex;
 
 }
@@ -405,6 +445,10 @@ font-size:2em;
 }
 .social-menu .site-title{
 display:flex;
+	display: -webkit-box;      
+	display: -moz-box;         
+	display: -ms-flexbox;      
+	display: -webkit-flex;
 justify-content: center;
 }
 .social-menu ul{
