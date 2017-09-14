@@ -208,7 +208,7 @@ filter: invert(100%);
 	display:flex;
 	justify-content: center;
     margin-top: 300px;
-    z-index: 2;
+    z-index: 5;
 
 }
 .bio-p-container{
@@ -266,6 +266,10 @@ filter: grayscale(100%);
 
 .head-bio{
 	flex-direction: row;
+	display: -webkit-box;      
+	display: -moz-box;         
+	display: -ms-flexbox;      
+	display: -webkit-flex;
 	display:flex;
 	margin-top: 100px;
 }
